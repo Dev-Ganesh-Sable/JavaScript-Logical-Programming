@@ -25,3 +25,5 @@ function removeDuplicates(arr) {
     return result;
 }
 console.log(removeDuplicates(arr)); 
+
+
