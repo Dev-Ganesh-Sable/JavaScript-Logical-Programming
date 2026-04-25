@@ -10,7 +10,7 @@ function isPerfectNumber(num) {
         }
     }
 
-    return sum === num;
+    return sum === num; 
 }
 
 
