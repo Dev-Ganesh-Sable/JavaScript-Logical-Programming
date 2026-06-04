@@ -1,18 +1,18 @@
 // first approch
 
-// let checkPalindrome = (num) => {
+let checkPalindrome = (num) => {
 
-//     let original = num.toString();
-//     let reversed = original.split("").reverse().join()
+    let original = num.toString();
+    let reversed = original.split("").reverse().join()
 
-//     if (original === reversed) {
-//         console.log(original +" : is palindrome number");
-//     } else {
-//         console.log(original +" : is not palindrome number");
-//     }
-// }
+    if (original === reversed) {
+        console.log(original +" : is palindrome number");
+    } else {
+        console.log(original +" : is not palindrome number");
+    }
+}
 
-// checkPalindrome(121);
+checkPalindrome(121);
 
 // second approch
 
@@ -35,6 +35,7 @@ console.log(isPalindromeNumber(121));
 
 function isPalindromeNumber(num) {
     let str = num.toString();
+
     let reversed = '';
 
     for (let i = str.length - 1; i >= 0; i--) {
@@ -45,5 +46,4 @@ function isPalindromeNumber(num) {
 }
 
 console.log(isPalindromeNumber(121));
-
 

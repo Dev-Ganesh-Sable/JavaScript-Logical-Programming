@@ -1,6 +1,7 @@
-let str = "ganesh"
+let str = "ganesh" 
 
 // first approch 
+
 // var splitStr=str.split("");
 // var reverseStr=splitStr.reverse("");
 // var joinStr=reverseStr.join("");
