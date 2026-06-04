@@ -12,7 +12,7 @@ for (let i = 3; i <= 10; i++) {
 
     let n3 = n1 + n2  // 0+1
     console.log(n3);
-    
+
     n1 = n2;         // 1
     n2 = n3          // 1
 }
@@ -25,6 +25,7 @@ function fibonacci(n) {
 
     for (let i = 0; i < n; i++) {
         console.log(a);
+
         let next = a + b;
         a = b;
         b = next;
