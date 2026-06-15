@@ -6,9 +6,9 @@ let checkPalindrome = (num) => {
     let reversed = original.split("").reverse().join()
 
     if (original === reversed) {
-        console.log(original +" : is palindrome number");
+        console.log(original + " : is palindrome number");
     } else {
-        console.log(original +" : is not palindrome number");
+        console.log(original + " : is not palindrome number");
     }
 }
 
@@ -34,8 +34,8 @@ console.log(isPalindromeNumber(121));
 // forth approch
 
 function isPalindromeNumber(num) {
-    let str = num.toString();
 
+    let str = num.toString();
     let reversed = '';
 
     for (let i = str.length - 1; i >= 0; i--) {

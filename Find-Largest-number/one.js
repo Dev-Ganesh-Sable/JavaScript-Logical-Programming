@@ -1,5 +1,5 @@
 function findLargest(arr) {
-    
+
   let largest = arr[0];
 
   for (let i = 1; i < arr.length; i++) {
@@ -11,6 +11,21 @@ function findLargest(arr) {
   return largest;
 }
 
-const numbers = [10, 45, 23, 67, 12,100];
-let ganesh=findLargest(numbers)
+const numbers = [10, 45, 23, 67, 12, 100];
+let ganesh = findLargest(numbers);
 console.log(ganesh); // 100 
+
+
+// second approch
+
+const arr = [10, 25, 5, 40, 15];
+
+let largest = arr[0];
+
+for (let i = 1; i < arr.length; i++) {
+  if (arr[i] > largest) {
+    largest = arr[i];
+  }
+}
+
+console.log(largest);

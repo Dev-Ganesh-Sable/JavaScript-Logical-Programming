@@ -1,8 +1,8 @@
 
-function reverse(str){
+function reverse(str) {
     return str.split('').reverse().join('')
 }
 
-let string="Siddhi"
+let string = "penguin"
 
 console.log(reverse(string));

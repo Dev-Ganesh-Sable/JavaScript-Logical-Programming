@@ -37,4 +37,4 @@ const arr2 = [3, 4, 5, 5, 3, 2];
 const merged = [...new Set([...arr1, ...arr2])];
 
 console.log(merged);
-// [1, 2, 3, 4, 5]
+// [1, 2, 3, 4, 5] 

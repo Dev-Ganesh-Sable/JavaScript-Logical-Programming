@@ -7,7 +7,7 @@ const firstLarge = (nums) => {
 
     let largest = nums[0]  // 92
 
-    for (let i = 0; i < nums.length; i++) {
+    for (let i = 1; i < nums.length; i++) {
         if (nums[i] > largest) {
             largest = nums[i]
         }
@@ -15,8 +15,8 @@ const firstLarge = (nums) => {
 
     let secondLarge = nums[0]
 
-    for (let i = 0; i < nums.length; i++) {
-        if (nums[i] > secondLarge && nums[i] < largest) {
+    for (let i = 1; i < nums.length; i++) {
+        if (nums[i] > secondLarge && nums[i] < largest) { 
             secondLarge = nums[i]
         }
     }

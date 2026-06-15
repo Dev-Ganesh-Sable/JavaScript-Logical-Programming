@@ -24,7 +24,6 @@ isArmstrong = (number) => {
 console.log(`isArmstrong number : ${isArmstrong(153)}`);
 
 
-
 // another example code 
 let number = 153;       // following armstrong number : 153,370,371,407
 
